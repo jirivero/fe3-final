@@ -23,11 +23,12 @@ h1{
   text-align: center;
 }
 
-nav{
+header{
+  background-color: #F2F2F2;
   display: flex;
-  width: 80vw;
-  justify-content: flex-start;
-  padding: 1rem;
+  justify-content: end;
+  padding: 15px;
+  margin-bottom: 30px;
 }
 
 a{
@@ -119,4 +120,8 @@ tr:nth-child(even) {
 }
 .dark > a {
   color: white;
+}
+
+ header.dark {
+  background-color:#000;
 }
